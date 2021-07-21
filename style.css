@@ -1,0 +1,364 @@
+
+.navbar-nav .btn{
+    font-family: 'STIX Two Math', serif;
+    border-radius: 24px;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white;
+    position: relative;
+    align-content: left;
+}
+.nav-link{
+    position: relative;
+    text-align: center;
+}
+.navbar{
+    font-size: 24px;
+    font-family: 'STIX Two Math', serif;
+}
+.btn:hover{
+    background-color: gray;
+}
+.container3{
+    height: 400px;
+    font-family: 'STIX Two Math', serif;
+}
+.container3{
+    position: relative;
+    padding: 200px 0;
+    background-image: linear-gradient(to right, rgb(206, 38, 178),rgb(100, 35, 89),rgb(134, 33, 180));
+    overflow: visible;
+    z-index: 1;
+  }
+  
+  /* where the magic happens */
+  .container3:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    bottom: 0;
+    transform-origin: right bottom;
+    transform: skewY(-9deg);
+  }
+
+.bg-gradiant{
+    background-image: linear-gradient(to right, rgb(206, 38, 178),rgb(100, 35, 89),rgb(134, 33, 180));
+    height: 400px;
+    width: 100%;
+}
+
+
+
+#item-8{
+    position: relative;
+    background-color: white;
+    border-radius: 12px;
+    width: 800px;
+    top: -91px;
+    left: 731px;
+    height: 200px;
+    justify-content: center;
+    
+
+}
+#item-9{
+    position: relative;
+    background-color: white;
+    border-radius: 12px;
+    
+    left: 900px;
+    top: -203px;
+    height: 249px;
+    border: 2px solid black;
+}
+#item-10{
+    position: relative;
+    background-color: white;
+    border-radius: 12px;
+    width: 178px;
+    left: 547px;
+    height: 80px;
+    top: -397px;
+}
+#item-11{
+    position: relative;
+    border-radius: 12px;
+    height: 80px;
+    width: 270px;
+    background-color: white;
+    left: 577px;
+    top: -337px;
+}
+#item-12{
+    position: relative;
+    top: -669px;
+    width: 426px;
+    color: white;
+}
+
+.container4 {
+    position: relative;
+    padding: 80px 0;
+    color: white;
+    background-image: linear-gradient(to right, rgb(199, 137, 189),rgb(212, 89, 192),rgb(172, 11, 164));
+    overflow: visible;
+    z-index: 1;
+    height: 900px;
+    font-family: 'STIX Two Math', serif;
+  }
+  
+  /* where the magic happens */
+
+  .container4:before, .container4:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    transform-origin: right top;
+    transform: skewY(-3deg);
+  }
+  .container4:after {
+    bottom: 0;
+    transform-origin: left bottom;
+    transform: skewY(-3deg);
+  }
+
+.copy_cap{
+    font-weight: bolder;
+    position: relative;
+    left: 248px;
+    top: 53px;
+    
+}
+
+#item-13{
+    background-color: white;
+    color: black;
+    align-content: center;
+    height: 500px;
+    width:300px;
+    border-radius: 12px;
+    position: relative;
+    top: 117px;
+    left: 412px;
+    padding: 30px;
+}
+#item-14{
+    background-color: white;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    align-content: center;
+    border-radius: 12px;
+    position: relative;
+    height:200px;
+    width: 400px;
+    left: 814px;
+    top: -375px;
+    padding: 30px;
+    background-image: linear-gradient(to right, rgb(219, 191, 148),rgb(182, 145, 90),rgb(189, 119, 39));
+
+}
+#item-15{
+    background-color: white;
+    color: black;
+    align-content: center;
+    border-radius: 12px;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    left: 816px;
+    top: -322px;
+    padding: 30px;
+}
+
+
+.container2{
+    padding: 80px;
+    background-color: rgb(200, 225, 238);
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-family: 'STIX Two Math', serif;
+    
+}
+
+.item-y .btn-y{
+    background-color: rgb(31, 130, 175);
+}
+#item-5{
+    background-color: white;
+    padding: 10px;
+    position: relative;
+    left: 170px;
+    top: 163px;
+    align-self: center;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+}
+#item-6{
+    padding: 10px;
+    background-color: white;
+    position: relative;
+    top: 101px;
+    left: 113px;
+    justify-content: right;
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+}
+#item-7{
+    padding: 10px;
+    background-color: white;
+    position: relative;
+    top: 68px;
+    left: -219px;
+    height: 250px;
+    width: 250px;
+    align-self: flex-end;
+    border-radius: 15px;
+}
+.copy_cap1{
+    align-self: auto;
+}
+
+
+
+
+.container1{
+    background-color: rgb(200, 225, 238);
+    height: 800px;
+    width: 100%;
+    display: flex;
+    padding-top: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    font-family: 'STIX Two Math', serif;
+}
+.item{
+      width: 200px;
+      height: 400px;
+      background-color: white;
+      margin: 20px;
+      padding:24px ;
+}
+ #item-1{ align-self: flex-start;
+    position: relative;
+    top: 76px;
+    left: 30px;
+}
+#item-2{
+    position: relative;
+    top: -165px;
+    right: -23px;
+}
+#item-3{
+    position: relative;
+    top: -249px;
+}
+#item-4{
+    position:relative;
+    top:-150px
+}
+.copy_caption{
+    border-bottom: 20px solid rgb(68, 20, 112);
+    text-align: left;
+    position: relative;
+    right:900px;
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+
+
+
+.page-wrapper{
+    min-height: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: auto;
+    font-family: 'STIX Two Math', serif;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+
+.footer{
+         background-color:whitesmoke;
+         color:black;
+         height: 400px;
+         padding: 70px 0;
+
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    
+
+}
+.footer-col h4{
+    margin-bottom: 35px;
+    position: relative;
+    left: 20px;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 5px;
+}
+.footer-col ul li a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: grey;
+}
+
+/*responsive*/
+@media(max-width:767px){
+    .footer-col{
+        width:50%;
+        margin-bottom: 30px;
+        
+    }
+}
+
+@media(max-width:767px){
+    .footer-col{
+        width:100%;
+        
+
+        
+    }
+}
